@@ -2,7 +2,8 @@
 #  The trademarks used in these materials are the properties of their respective owners.
 #  This work is protected by copyright law and contains valuable trade secrets and
 #  confidential information.
-
+!providers.tf.example
+!terraform.tfvars.example
 .env
 *.dll
 *.exe

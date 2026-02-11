@@ -1,0 +1,10 @@
+bastion_host_output = {
+  "public_dns" = "ec2-x-x-x-x.compute-1.amazonaws.com"
+  "public_ip"  = "x.x.8.x"
+}
+postgres_user                  = "root"
+postgres_password              = "password"
+postgres_db                    = "n8n"
+n8n_encryption_key             = "super-secret-key"
+n8n_user_management_jwt_secret = "even-more-secret"
+n8n_default_binary_data_mode   = "filesystem"
