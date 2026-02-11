@@ -1,0 +1,47 @@
+#  Copyright 2017 Accenture. All Rights Reserved.
+#  The trademarks used in these materials are the properties of their respective owners.
+#  This work is protected by copyright law and contains valuable trade secrets and
+#  confidential information.
+
+.env
+*.dll
+*.exe
+.DS_Store
+example.tf
+terraform.tfplan
+terraform.tfstate
+bin/
+modules-dev/
+/pkg/
+website/.vagrant
+website/.bundle
+website/build
+website/node_modules
+.vagrant/
+*.backup
+./*.tfstate
+.terraform/
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+.terraform.tfstate.lock.info
+
+website/vendor
+logfiles/
+state/
+
+# Test exclusions
+!command/test-fixtures/**/*.tfstate
+!command/test-fixtures/**/.terraform/
+
+*.tfvars
+provider.tf
+providers.tf
+dashboards/grafana_datasource_cloudwatch.yaml
+templates/aws-auth.yml
+.terraform.lock.hcl
+
